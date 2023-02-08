@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./chatbot1.css">
+<link rel="stylesheet" href="./style.css">
 <div class="landing-page">
   <div class="container">
     <div class="header-area">
@@ -7,67 +7,43 @@
         
   
 
-<script>
-date = new Date().toLocaleDateString();
-document.write(date);
-</script>
- 
-<body>
-
-    <div id="clock">8:10:45</div>
- 
-    <script>
-        setInterval(showTime, 1000);
-        function showTime() {
-            let time = new Date();
-            let hour = time.getHours();
-            let min = time.getMinutes();
-            let sec = time.getSeconds();
-            am_pm = "AM";
- 
-            if (hour > 12) {
-                hour -= 12;
-                am_pm = "PM";
-            }
-            if (hour == 0) {
-                hr = 12;
-                am_pm = "AM";
-            }
- 
-            hour = hour < 10 ? "0" + hour : hour;
-            min = min < 10 ? "0" + min : min;
-            sec = sec < 10 ? "0" + sec : sec;
- 
-            let currentTime = hour + ":"
-                + min + ":" + sec + am_pm;
- 
-            document.getElementById("clock")
-                .innerHTML = currentTime;
-        }
- 
-        showTime();
-    </script>
+<div class="mist">
+	<span style="--i: 1"></span>
+	<span style="--i: 3"></span>
+	<span style="--i: 16"></span>
+	<span style="--i: 5"></span>
+	<span style="--i: 13"></span>
+	<span style="--i: 6"></span>
+	<span style="--i: 7"></span>
+	<span style="--i: 10"></span>
+	<span style="--i: 8"></span>
+	<span style="--i: 7"></span>
+	<span style="--i: 10"></span>
+	<span style="--i: 8"></span>
+	<span style="--i: 17"></span>
+	<span style="--i: 11"></span>
+	<span style="--i: 12"></span>
+	<span style="--i: 14"></span>
+	<span style="--i: 2"></span>
+	<span style="-i: 9"></span>
+	<span style="--i: 15"></span>
+	<span style="--i: 4"></span>
 </div>
-   
-      <ul class="links">
-        <li> <a href="https://www.keralauniversity.ac.in/"  target="_blank" rel="noopener noreferrer"> Visit Official Website </a></li>
-      </ul>
-    </div>
-    <div class="image">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Kerala_University_Emblem.png">
-    </div>
-    <div class="info">
-      <h1>UNIVERSITY OF KERALA </h1>
-      <h3>PG CSS Admission</h3>
-      <p>This is a Chatbot powered by RASA. We are delighted to help you with any questions regarding the admission process.This chatbot uses Natural Language Processing and Machine Learning. </p>
-    </div>
 
-    <div class="clearfix"></div>
-  </div>
+<div class="container" style="--i: 1">
+	<img src="https://assets.codepen.io/4787486/street-lamp.png" alt="">
+	<div class="light light1"></div>
 </div>
-<div id="chat-container"></div>
-<script src="./chatbot1.js"></script>
-    <script>
-        createChatBot(host = 'http://localhost:5005/webhooks/rest/webhook', botLogo = "/home/futures/Pictures/4A.png",
-            title = "University Chatbot", welcomeMessage = "Hey, i am Jeff",inactiveMsg = "Oops...Try Rephrasing..or Contact 9567XXXXXX")
-    </script>
+
+<div class="container" style="--i: 2">
+	<img src="https://assets.codepen.io/4787486/street-lamp.png" alt="">
+	<div class="light light2"></div>
+</div>
+
+<div class="container" style="--i: 3">
+	<img src="https://assets.codepen.io/4787486/street-lamp.png" alt="">
+	<div class="light light3"></div>
+</div>
+
+<img class="man" src="https://assets.codepen.io/4787486/victorian-man-silhouette.png" alt="">
+<img class="carriage" src="https://assets.codepen.io/4787486/horse-drawn-carriage-silhouette.png" alt="" />
